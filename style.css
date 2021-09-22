@@ -1,0 +1,121 @@
+body{
+    background-image: url("img.jpg");
+    background-size: cover;
+    
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 2%;
+    letter-spacing: 2px;
+}
+.logo{
+    height: 25%;
+    width: 15%;
+    
+    
+}
+form{
+    margin-left: 25%;
+    border:1px solid black;
+    width: 50%;
+       height: 95%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border:none;
+    margin-top: 2%;
+    
+    
+}
+.forgot-link:link{
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+
+    
+
+}
+.forgot-link:visited{
+    color:black;
+}
+.forgot-link:hover{
+    text-decoration: underline;
+}
+input{
+    width: 55%;
+    height: 8%;
+    background-color:rgba(245, 224, 0,0.5);
+    border-radius: 20px;
+    border:none;
+    
+}
+input:focus{
+    border-radius: 20px;
+    border:none;
+    outline-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgb(245, 245, 163);
+   
+    
+}
+.pass-field{
+    margin-bottom: 5%;
+}
+.head1{
+    word-spacing: 2%;
+    letter-spacing: 2px;
+}
+.button-login{
+    width: 50%;
+    height: 7%;
+    border-radius: 20px;
+    border:none;
+    background-color: yellow;
+    color:black;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    word-spacing: 2%;
+    letter-spacing: 2px;
+}
+h5{
+    word-spacing: 2%;
+    letter-spacing: 2px;
+}
+.button-login:hover{
+    transition: all 500ms ease-in-out;
+    width: 53%;
+    height: 8%;
+    font-size: 22px;
+}
+.content{
+    opacity: 0;
+    text-align:center;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+   
+    
+}
+.bottom-title{
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:transparent;
+    
+}
+.google-img{
+    height: 5%;
+    
+}
+@keyframes fade{
+    100%{opacity: 1;}
+}
+@keyframes move{
+    100%{text-align:center;transition: all 1s ease-in-out; }
+}
